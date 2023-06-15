@@ -1,0 +1,15 @@
+$primary-color: steelBlue;
+
+.Header {
+  height: 100px;
+  //   width: 500px;
+  //   margin: 8px auto;
+  border: 1px solid $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  h3 {
+    color: $primary-color;
+  }
+}
